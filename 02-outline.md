@@ -1,5 +1,10 @@
 <!-- .slide: data-background="img/background-green-orig.jpg" -->
 
+## Outline
+
+---
+<!-- .slide: data-background="img/background-green-orig.jpg" -->
+
 ### Outline
 
 - About Me                        <!-- .element: class="fragment" -->
