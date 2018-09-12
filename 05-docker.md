@@ -58,10 +58,18 @@
 
 ### Demos
 
-demo-0
+docker-0
 
 ---
 <!-- .slide: data-background="img/background-violet-orig.jpg" -->
 
 ### Demos
 
+docker-1
+
+---
+<!-- .slide: data-background="img/background-violet-orig.jpg" -->
+
+### Demos
+
+docker-2

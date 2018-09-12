@@ -1,0 +1,22 @@
+version: '3'
+services:
+  hello-world:
+    environment:
+      KEY1: val1
+      KEY2: val2
+    image: hello-world-server
+    ports:
+      - 8080:8080
+    volumes:
+      - ./run.sh:/run.sh
+
+  echo:
+    command: -text="hello world"
+    environment:
+      KEY3: val3
+      KEY4: val4
+    image: hashicorp/http-echo
+    ports:
+      - 5678:5678
+    volumes:
+      - ./:/pwd
