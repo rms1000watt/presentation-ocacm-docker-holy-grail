@@ -5,21 +5,19 @@
 ---
 <!-- .slide: data-background="img/background-green-orig.jpg" -->
 
-### Docker Compose??
+### What is Docker Compose?
 
-<div class="fragment">
-  Docker Compose is a Python wrapper around Docker
-  <img src="./img/docker-compose-github.png" style="background-color:white">
-</div>
+Docker Compose lets your organize and manage a collection of Docker Containers on your machine   <!-- .element: class="fragment" -->
+<img src="./img/docker-compose-github.png" style="background-color:white">   <!-- .element: class="fragment" -->
 
 ---
 <!-- .slide: data-background="img/background-green-orig.jpg" -->
 
-### What does this provide?
+### Why is this Important?
 
 <div class="fragment">
-  Ideal environment for developers to prototype against
-  <img src="./img/proto-man.png" style="background-color:white">
+  Ideal environment for developers to prototype against (no bash scripts) <br>
+  <img src="./img/proto-man.png" height="500" style="background-color:white">
 </div>
 
 ---
@@ -27,7 +25,6 @@
 
 ### What does this look like?
 
-<div class="fragment">
     version: '3'
     services:
       hello-world:
@@ -38,22 +35,19 @@
         ports:
           - 8080:8080
         volumes:
-          - ./run.sh:/run.sh
-</div>
+          - /tmp:/tmp
 
 ---
 <!-- .slide: data-background="img/background-green-orig.jpg" -->
 
 ### Demo
 
-docker-compose-0
+Docker Compose
 
 ---
 <!-- .slide: data-background="img/background-green-orig.jpg" -->
 
-### Summary
+### Docker Compose
 
-- &#x1f604; Easy                             <!-- .element: class="fragment" -->
-- &#x1f604; Great for collaboration          <!-- .element: class="fragment" -->
-- &#x1f604; Great as precursor for DevOps    <!-- .element: class="fragment" -->
-- &#x1f914; Only run locally (no clustering) <!-- .element: class="fragment" -->
+The only catch is.. Docker Compose only runs locally
+![Docker Compose locally](./img/containers-fall-over.jpg) <!-- .element: class="fragment" -->

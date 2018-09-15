@@ -15,7 +15,7 @@
 ---
 <!-- .slide: data-background="img/background-violet-orig.jpg" -->
 
-### What does this mean?
+### Docker
 
 <img src="./img/docker-anywhere.png" height=600 style="background-color:white"> <!-- .element: class="fragment" -->
 
@@ -58,18 +58,20 @@
 
 ### Demos
 
-docker-0
+    docker run hello-world
 
 ---
 <!-- .slide: data-background="img/background-violet-orig.jpg" -->
 
 ### Demos
 
-docker-1
+    docker run -p 5678:5678 hashicorp/http-echo -text="hello world"
 
 ---
 <!-- .slide: data-background="img/background-violet-orig.jpg" -->
 
 ### Demos
 
-docker-2
+    GOOS=linux go build -o hello-world
+    docker build -t hello-world-server .
+    docker run -it --rm -p 8080:8080 hello-world-server
