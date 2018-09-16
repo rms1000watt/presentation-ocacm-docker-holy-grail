@@ -51,7 +51,7 @@
 
 ### Kubernetes System
 
-<img src="./img/kubernetes-cluster-diagram.png" style="background-color:white"> <!-- .element: class="fragment" -->
+<img src="./img/kubernetes-federated-cluster.png" style="background-color:white"> <!-- .element: class="fragment" -->
 
 ---
 <!-- .slide: data-background="img/background-orange-orig.jpg" -->
@@ -119,4 +119,39 @@
         protocol: TCP
       selector:
         app: test-echo
+
+---
+<!-- .slide: data-background="img/background-orange-orig.jpg" -->
+
+### Demo
+
+    kubectl apply -f hello-world.yml
+
+---
+<!-- .slide: data-background="img/background-orange-orig.jpg" -->
+
+### Helm
+
+Package manager for Kubernetes
+
+---
+<!-- .slide: data-background="img/background-orange-orig.jpg" -->
+
+### Demo
+
+    helm repo add rms1000watt https://rms1000watt.github.io/helm-charts
+    helm install rms1000watt/monochart -f values.yml
+
+`values.yml`
+
+    image:
+      repository: rms1000watt/dummy-golang-project
+
+    deployment:
+      enabled: true
+
+    service:
+      enabled: true
+      internalPort: 9999
+      externalPort: 80
 

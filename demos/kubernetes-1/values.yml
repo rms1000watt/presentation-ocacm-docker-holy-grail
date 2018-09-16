@@ -1,0 +1,10 @@
+image:
+  repository: rms1000watt/dummy-golang-project
+
+deployment:
+  enabled: true
+
+service:
+  enabled: true
+  internalPort: 9999
+  externalPort: 80

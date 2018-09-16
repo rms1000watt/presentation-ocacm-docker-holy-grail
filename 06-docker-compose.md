@@ -16,8 +16,8 @@ Docker Compose lets your organize and manage a collection of Docker Containers o
 ### Why is this Important?
 
 <div class="fragment">
-  Ideal environment for developers to prototype against (no bash scripts) <br>
-  <img src="./img/proto-man.png" height="500" style="background-color:white">
+  Easy for developers to write, share and test docker systems<br>
+  <img src="./img/proto-man.png" height="400" style="background-color:white">
 </div>
 
 ---
@@ -27,13 +27,13 @@ Docker Compose lets your organize and manage a collection of Docker Containers o
 
     version: '3'
     services:
-      hello-world:
+      dummy-golang-project:
         environment:
           KEY1: val1
           KEY2: val2
-        image: hello-world-server
+        image: rms1000watt/dummy-golang-project
         ports:
-          - 8080:8080
+          - 9999:9999
         volumes:
           - /tmp:/tmp
 
@@ -42,7 +42,7 @@ Docker Compose lets your organize and manage a collection of Docker Containers o
 
 ### Demo
 
-Docker Compose
+    docker-compose up
 
 ---
 <!-- .slide: data-background="img/background-green-orig.jpg" -->

@@ -1,22 +1,11 @@
 version: '3'
 services:
-  hello-world:
+  dummy-golang-project:
     environment:
       KEY1: val1
       KEY2: val2
-    image: hello-world-server
+    image: rms1000watt/dummy-golang-project
     ports:
-      - 8080:8080
+      - 9999:9999
     volumes:
-      - ./run.sh:/run.sh
-
-  echo:
-    command: -text="hello world"
-    environment:
-      KEY3: val3
-      KEY4: val4
-    image: hashicorp/http-echo
-    ports:
-      - 5678:5678
-    volumes:
-      - ./:/pwd
+      - /tmp:/tmp
