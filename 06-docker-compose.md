@@ -49,5 +49,5 @@ Docker Compose lets your organize and manage a collection of Docker Containers o
 
 ### Docker Compose
 
-The only catch is.. Docker Compose only runs locally
+The only catch is.. Docker Compose only runs locally <!-- .element: class="fragment" -->
 ![Docker Compose locally](./img/containers-fall-over.jpg) <!-- .element: class="fragment" -->

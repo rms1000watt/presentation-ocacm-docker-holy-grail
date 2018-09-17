@@ -2,5 +2,6 @@
 
 ## Questions
 
-<br/>rms1000watt@gmail.com
-<br/>github.com/rms1000watt
+- rms1000watt@gmail.com
+- github.com/rms1000watt
+- linkedin.com/in/ryanmatthewsmith

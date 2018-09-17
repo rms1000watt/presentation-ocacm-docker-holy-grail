@@ -1,11 +1,13 @@
 <!-- .slide: data-background="img/background-violet-orig.jpg" -->
 
-## Clouds
+## CI CD
 
 ---
 <!-- .slide: data-background="img/background-violet-orig.jpg" -->
 
-### Clouds
+### Software Distribution Pipelines
+
+// between here and here.. ci
+// between here and here.. cd
 
 
-<br/>rsmith@veritone.com <!-- .element: class="fragment" -->

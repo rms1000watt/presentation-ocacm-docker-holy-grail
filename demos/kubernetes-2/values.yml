@@ -7,4 +7,4 @@ deployment:
 service:
   enabled: true
   internalPort: 9999
-  externalPort: 80
+  externalPort: 9999

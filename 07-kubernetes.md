@@ -114,7 +114,7 @@
     spec:
       type: LoadBalancer
       ports:
-      - port: 80
+      - port: 9999
         targetPort: 9999
         protocol: TCP
       selector:
@@ -132,14 +132,23 @@
 
 ### Helm
 
-Package manager for Kubernetes
+<div class="fragment">
+  Package manager for Kubernetes
+  <img src="./img/helm-intro.png" height=500 style="background-color:white">
+</div>
 
 ---
 <!-- .slide: data-background="img/background-orange-orig.jpg" -->
 
 ### Demo
 
-    helm repo add rms1000watt https://rms1000watt.github.io/helm-charts
+    helm install stable/tensorflow-notebook
+
+---
+<!-- .slide: data-background="img/background-orange-orig.jpg" -->
+
+### Demo
+
     helm install rms1000watt/monochart -f values.yml
 
 `values.yml`
@@ -153,5 +162,14 @@ Package manager for Kubernetes
     service:
       enabled: true
       internalPort: 9999
-      externalPort: 80
+      externalPort: 9999
 
+---
+<!-- .slide: data-background="img/background-orange-orig.jpg" -->
+
+### Kubernetes
+
+<div class="fragment">
+  Extremely popular and battle-tested, distributed system for deploying containers <br>
+  <img src="./img/kube-hot.jpg" height=500 style="background-color:white">
+</div>
