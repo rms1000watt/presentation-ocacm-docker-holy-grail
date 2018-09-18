@@ -76,6 +76,12 @@
     docker build -t hello-world-server .
     docker run -it --rm -p 8080:8080 hello-world-server
 
+`Dockerfile`
+
+    FROM scratch
+    COPY hello-world /hello-world
+    CMD ["/hello-world"]
+
 ---
 <!-- .slide: data-background="img/background-violet-orig.jpg" -->
 

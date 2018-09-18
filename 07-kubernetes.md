@@ -56,20 +56,6 @@
 ---
 <!-- .slide: data-background="img/background-orange-orig.jpg" -->
 
-### Kubernetes Components
-
-<img src="./img/kubernetes-components-1.jpeg" height=500 style="background-color:white"> <!-- .element: class="fragment" -->
-
----
-<!-- .slide: data-background="img/background-orange-orig.jpg" -->
-
-### Kubernetes Components
-
-<img src="./img/kubernetes-components-2.jpeg" height=500 style="background-color:white"> <!-- .element: class="fragment" -->
-
----
-<!-- .slide: data-background="img/background-orange-orig.jpg" -->
-
 ### Running Kubernetes in the Cloud
 
 <img src="./img/k8s-clouds.png" style="background-color:white"> <!-- .element: class="fragment" -->

@@ -28,14 +28,14 @@ Docker Compose lets your organize and manage a collection of Docker Containers o
     version: '3'
     services:
       dummy-golang-project:
-        environment:
-          KEY1: val1
-          KEY2: val2
         image: rms1000watt/dummy-golang-project
         ports:
           - 9999:9999
-        volumes:
-          - /tmp:/tmp
+
+      hello-world-server:
+        image: hello-world-server
+        ports:
+          - 8080:8080
 
 ---
 <!-- .slide: data-background="img/background-green-orig.jpg" -->

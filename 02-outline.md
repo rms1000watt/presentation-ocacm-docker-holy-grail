@@ -13,5 +13,5 @@
 - Docker Compose                  <!-- .element: class="fragment" -->
 - Kubernetes                      <!-- .element: class="fragment" -->
 - Other Orchestrators             <!-- .element: class="fragment" -->
-- Clouds                          <!-- .element: class="fragment" -->
+- Summary                         <!-- .element: class="fragment" -->
 - Q&A                             <!-- .element: class="fragment" -->
