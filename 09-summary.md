@@ -13,27 +13,21 @@
 </div>
 
 ---
+<!-- .slide: data-background="img/background-violet-orig.jpg" -->
 
-Businesses are always changing..
+### Recommendations
 
-Sometimes managed in Cloud is OK.. sometimes it's not..
+- &#x1f433; Dockerize all immutable servers                  <!-- .element: class="fragment" -->
+- &#x1f300; Use cloud hosted Kubernetes                      <!-- .element: class="fragment" -->
+- &#x1f4be; Use cloud hosted Databases                       <!-- .element: class="fragment" -->
+- &#x1f6e0; Use automation to build and deploy (CI/CD)       <!-- .element: class="fragment" -->
+- &#x1f92a; Don't believe the fear of "Cloud Lock-in"        <!-- .element: class="fragment" -->
+- &#x1f512; If need be, move to more regulated cloud         <!-- .element: class="fragment" -->
+- &#x1f5a5; Worst case, migrate Kubernetes to On-Prem        <!-- .element: class="fragment" -->
 
-When do you decide to be managed or not?
 
-Are you driven by Cloud-Fear.. or Customer approval?
-
-Build the system to perform--follow best practices in each environment
-
-Work quick like a hacker,
+---
 
 ### Chick Fil A
 
 Kubernetes cluster
-
-### Summary
-
-Managed is almost always best.. less human capital needed
-
-Only On Prem when forced..
-
-Go all in one way or another.. but be prepared to pivot if need be
