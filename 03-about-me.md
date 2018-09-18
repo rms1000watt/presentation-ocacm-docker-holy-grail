@@ -44,5 +44,3 @@
 ### Github
 
 <img src="./img/github-dashboard.png" style="background-color:white"/>
-
-<small>github.com/rms1000watt</small>
