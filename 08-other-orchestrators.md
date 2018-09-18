@@ -17,11 +17,10 @@
 
 ### Docker Swarm
 
-- &#x1f604; Easy to use (smaller learning curve)                         <!-- .element: class="fragment" -->
-- &#x1f604; Enterprise support                                           <!-- .element: class="fragment" -->
-- &#x1f604; Cloud managed offerings                                      <!-- .element: class="fragment" -->
-- &#x1f914; OK community support                                         <!-- .element: class="fragment" -->
-- &#x1f914; Don't see articles, blogs, videos about massive deployments  <!-- .element: class="fragment" -->
+- &#x1f604; Easy to use (smaller learning curve)                             <!-- .element: class="fragment" -->
+- &#x1f604; Enterprise support                                               <!-- .element: class="fragment" -->
+- &#x1f914; Cloud managed offerings??                                        <!-- .element: class="fragment" -->
+- &#x1f914; Don't see many articles, blogs, videos about massive deployments <!-- .element: class="fragment" -->
 
 ---
 <!-- .slide: data-background="img/background-violet-orig.jpg" -->
@@ -43,7 +42,5 @@
 - &#x1f604; Fairly easy to use                   <!-- .element: class="fragment" -->
 - &#x1f604; Can run more than just Docker images <!-- .element: class="fragment" -->
 - &#x1f604; Enterprise support                   <!-- .element: class="fragment" -->
-- &#x1f914; OK community support                 <!-- .element: class="fragment" -->
-- &#x1f914; No cloud managed offerings           <!-- .element: class="fragment" -->
-
-
+- &#x1f604; Cluster federation                   <!-- .element: class="fragment" -->
+- &#x1f914; Cloud managed offerings??            <!-- .element: class="fragment" -->
